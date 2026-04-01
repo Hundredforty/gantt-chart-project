@@ -1,3 +1,5 @@
+import { saveData } from './backup.js';
+
 let tasks = [];
 
 const data = [
