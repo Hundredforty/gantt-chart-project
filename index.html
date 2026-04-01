@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專案管理工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>專案管理工具</h1>
+    <div id="gantt-chart"></div>
+    <form id="task-form">
+        <input type="text" placeholder="任務名稱" required>
+        <input type="date" required>
+        <input type="date" required>
+        <button type="submit">新增任務</button>
+    </form>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
