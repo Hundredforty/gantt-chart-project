@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#gantt-chart {
+    width: 800px;
+    height: 450px;
+    border: 1px solid #ccc;
+}
+
+form {
+    margin-top: 20px;
+}
